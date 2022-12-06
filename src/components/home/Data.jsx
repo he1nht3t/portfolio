@@ -1,4 +1,4 @@
-import CV from "../../assets/CV.pdf";
+import CV from "../../assets/HeinHtetAung.pdf";
 
 const Data = () => {
   return (
