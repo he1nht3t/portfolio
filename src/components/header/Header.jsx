@@ -43,6 +43,23 @@ const Header = () => {
               </a>
             </li>
 
+            <li
+              className="nav_item"
+              onClick={() => setActiveLink("#qualification")}
+            >
+              <a
+                href="#qualification"
+                className={
+                  ActiveLink === "#qualification"
+                    ? "nav_link active_link"
+                    : "nav_link"
+                }
+              >
+                <i className="uil uil-graduation-cap nav_icon"></i>{" "}
+                #Qualification
+              </a>
+            </li>
+
             <li className="nav_item" onClick={() => setActiveLink("#contact")}>
               <a
                 href="#contact"
