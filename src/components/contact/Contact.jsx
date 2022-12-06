@@ -17,10 +17,12 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          alert("Message sent successfully!");
         },
         (error) => {
-          console.log(error.text);
+          alert(
+            "Sorry, we are facing some error  :'( \nTry to reach me out by social!"
+          );
         }
       );
     e.target.reset();
