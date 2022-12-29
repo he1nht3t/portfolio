@@ -1,9 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./header.css";
 
 const Header = () => {
   const [Toggle, setToggle] = useState(false);
   const [ActiveLink, setActiveLink] = useState("#home");
+
+  useEffect(() => {
+    const activePage = window.location;
+    console.log(activePage);
+  }, []);
 
   window.addEventListener("scroll", () => {
     const header = document.querySelector(".header");

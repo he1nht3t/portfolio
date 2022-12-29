@@ -48,6 +48,26 @@ const Qualification = () => {
             }
           >
             <div className="qualification_data">
+              <div></div>
+              <div>
+                <span className="qualification_rounder"></span>
+                <span className="qualification_line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification_title">
+                  Rockstar Developer Course
+                </h3>
+                <span className="qualification_subtitle">
+                  Fairway Technology
+                </span>
+                <div className="qualification_calender">
+                  <i className="uil uil-calendar-alt">Present</i>
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification_data">
               <div>
                 <h3 className="qualification_title">Korean Language</h3>
                 <span className="qualification_subtitle">
